@@ -50,4 +50,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
     testImplementation(libs.kotlin.coroutines.test)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.glide)
+    annotationProcessor(libs.compiler)
 }
